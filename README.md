@@ -1,6 +1,6 @@
 # Overfit: Adaptive Pathogen Model
 
-A real-time simulation system modeling how outbreaks evolve under intervention, resistance, and adaptive feedback loops.
+A real-time biomedical simulation system modeling how outbreaks evolve under intervention, resistance, and adaptive feedback loops.
 
 
 ##  Overview
