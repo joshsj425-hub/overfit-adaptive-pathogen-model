@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+Overfit: Adaptive Pathogen Model
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A real-time simulation system modeling how outbreaks evolve under intervention, resistance, and adaptive feedback loops.
 
-## Available Scripts
+🌍 Overview
 
-In the project directory, you can run:
+Overfit is a dynamic outbreak simulation that explores how containment strategies, treatment efforts, and system adaptation interact over time. Instead of modeling a fixed outcome, the system evolves based on user decisions and internal feedback mechanisms.
 
-### `npm start`
+The goal is to highlight how real-world intervention strategies often involve trade-offs—where actions that improve short-term stability can introduce long-term instability.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+⚙️ What it does
+Simulates an evolving outbreak environment in real time
+Tracks three core variables:
+Spread
+Resistance
+Stability
+Applies user-driven interventions that shift system behavior
+Introduces adaptive resistance when similar strategies are repeated
+Produces emergent, non-linear outcomes based on interaction dynamics
+🧠 Core idea
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Instead of a fixed simulation path, the system behaves like a feedback-driven model where:
 
-### `npm test`
+Every action has immediate and delayed effects
+The system adapts based on repeated user behavior
+No single strategy remains optimal indefinitely
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This creates a continuously shifting decision environment.
 
-### `npm run build`
+🛠️ Built with
+React – frontend interface and real-time rendering
+JavaScript / TypeScript – core simulation logic
+Custom state engine – manages variable interactions and updates
+Event-driven architecture – user actions trigger system transitions
+CSS / Tailwind – UI styling and layout design
+Client-side execution – no backend required, fully local simulation
+🚧 Challenges
+Balancing system behavior to avoid being too stable or too chaotic
+Tuning resistance growth to create meaningful adaptation without breaking the model
+Designing interactions that remain understandable despite underlying complexity
+Structuring the UI to clearly reflect evolving system state in real time
+🧩 What we learned
+Small changes in system rules can drastically change emergent behavior
+Complex simulations require careful balance between realism and interpretability
+Clear UI design is as important as correct system logic
+Feedback loops are powerful but difficult to tune correctly
+🚀 Live Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👉 https://YOUR-VERCEL-LINK-HERE
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📦 Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👉 https://github.com/YOUR-USERNAME/YOUR-REPO-NAME
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔮 Future improvements
+Expand adaptive behavior with more complex response models
+Introduce additional system variables (mutations, recovery rates, etc.)
+Improve calibration using real-world epidemiological patterns
+Add scenario presets for different outbreak conditions
+Enhance visualization of system evolution over time
