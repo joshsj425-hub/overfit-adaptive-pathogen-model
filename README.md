@@ -1,6 +1,6 @@
 # Overfit: Adaptive Pathogen Model
 
-Overfit is my biomedical simulation system modeling how outbreaks evolve under intervention, resistance, and adaptive feedback loops.
+Overfit is my biomedical pathogen simulatior modeling how outbreaks evolve under intervention, resistance, and adaptive feedback loops.
 
 
 ##  Overview
